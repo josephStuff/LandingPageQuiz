@@ -12,10 +12,12 @@ body {
 }
 
 body {
+    width: 100%;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     background-image: url("/img/LandingPage_1920.png");
-    background-position: top right;
+    background-position: center;
     background-repeat: no-repeat;
 }
 
@@ -25,4 +27,65 @@ body {
 
 .footer {
     flex-shrink: 0;
+}
+
+
+.bgPicture {
+    width: 100;
+    height: 100;
+}
+
+
+@media (min-width: 1920px) {
+    .bgPicture {
+        width: 100;
+        height: 100;
+    }
+}
+
+@media (min-width: 1199.98px) {
+    .bgPicture {
+        width: 100;
+        height: 100;
+    }
+}
+
+
+@media (min-width: 912px) {
+    .bgPicture {
+        width: 100;
+        height: 100;
+    }
+}
+
+@media (min-width: 720px) {
+    .bgPicture {
+        width: 100;
+        height: 100;
+    }
+}
+
+@media (min-width: 912px) {
+    .bgPicture {
+        width: 100;
+        height: 100;
+    }
+}
+
+.bodyText {
+    font-family: 'Roboto';
+    font-size: 400;
+    
+}
+
+.secondaryText {
+    font-family: 'Roboto';
+    font-size: 300;
+}
+
+@media (min-width: 1199.98px) {
+    .bodyText {
+        font-family: 'roboto';
+        font-size: large;
+    }
 }

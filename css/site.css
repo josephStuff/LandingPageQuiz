@@ -12,13 +12,8 @@ body {
 }
 
 body {
-    width: 100%;
-    background-size: cover;
     display: flex;
     flex-direction: column;
-    background-image: url("/img/LandingPage_1920.png");
-    background-position: center;
-    background-repeat: no-repeat;
 }
 
 .content {
@@ -29,56 +24,98 @@ body {
     flex-shrink: 0;
 }
 
-
-.bgPicture {
-    width: 100;
-    height: 100;
-}
-
-
-@media (min-width: 1919px) {
-    .bgPicture {
-        width: 100;
-        height: 100;
-    }
-}
-
-@media (min-width: 1199.98px) {
-    .bgPicture {
-        width: 100;
-        height: 100;
-    }
-}
-
-
-@media (min-width: 912px) {
-    .bgPicture {
-        width: 100;
-        height: 100;
-    }
-}
-
-@media (min-width: 720px) {
-    .bgPicture {
-        width: 100;
-        height: 100;
-    }
-}
-
-@media (min-width: 539px) {
-    .bgPicture {
-        width: 100;
-        height: 100;
-    }
-}
-
 .bodyText {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-size: 400;
     
 }
 
 .secondaryText {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-size: 300;
 }
+
+.bgPicture {
+    background: url("/img/LandingPage_576x1600.png"), var(--cf-darkblue);
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+.textHover {
+    
+}
+
+@media (min-width: 767.98px) {
+    .bgPicture {
+        background: url("/img/LandingPage_768.png"), var(--cf-darkblue);
+        background-position: top;
+        background-repeat: no-repeat;
+    }
+
+    .bodyText {
+    font-family: 'Roboto', sans-serif;
+    font-size: 400;
+    }
+
+    .secondaryText {
+        font-family: 'Roboto', sans-serif;
+        font-size: 300;
+    }
+}
+
+@media (min-width: 991.98px) {
+    .bgPicture {
+        background: url("/img/LandingPage_992.png"), var(--cf-darkblue);
+        background-position: top;
+        background-repeat: no-repeat;
+    }
+
+    .bodyText {
+    font-family: 'Roboto', sans-serif;
+    font-size: 400;        
+    }
+
+    .secondaryText {
+        font-family: 'Roboto', sans-serif;
+        font-size: 300;
+    }
+}
+
+
+@media (min-width: 1199.98px) {
+    .bgPicture {
+        background: url("/img/LandingPage_1200.png"), var(--cf-darkblue);
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .bodyText {
+    font-family: 'Roboto', sans-serif;
+    font-size: 400;        
+    }
+
+    .secondaryText {
+        font-family: 'Roboto', sans-serif;
+        font-size: 300;
+    }
+}
+
+@media (min-width: 1399.98px) {
+    .bgPicture {
+        background: url("/img/LandingPage_1400.png"), var(--cf-darkblue);
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .bodyText {
+    font-family: 'Roboto', sans-serif;
+    font-size: 400;        
+    }
+
+    .secondaryText {
+        font-family: 'Roboto', sans-serif;
+        font-size: 300;
+    }
+}
+
+
